@@ -1,0 +1,13 @@
+## .NET Core / C# build outputs
+bin/
+obj/
+Logs/
+*.user
+*.suo
+.vs/
+
+## Configuration files with sensitive data / passwords
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Secrets.json
+*.secret.json
