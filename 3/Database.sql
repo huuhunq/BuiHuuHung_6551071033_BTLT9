@@ -1,0 +1,4 @@
+CREATE DATABASE QL_DaNgoai; GO
+USE QL_DaNgoai;
+CREATE TABLE ChuyenDi(MaChuyen int IDENTITY PRIMARY KEY,TenChuyen nvarchar(100) NOT NULL,DiaDiem nvarchar(100) NOT NULL,NgayDi date NOT NULL,SoNguoi int NOT NULL,NganSach decimal(18,0) NOT NULL,PhuongTien nvarchar(30) NOT NULL,DaHoanThanh bit NOT NULL,GhiChu nvarchar(200) NULL);
+INSERT ChuyenDi(TenChuyen,DiaDiem,NgayDi,SoNguoi,NganSach,PhuongTien,DaHoanThanh,GhiChu) VALUES(N'Đà Lạt cuối tuần',N'Đà Lạt','2026-10-25',4,4000000,N'Ô tô',0,NULL),(N'Sa Pa tháng 11',N'Sa Pa','2026-11-05',3,6000000,N'Tàu hỏa',0,NULL),(N'Biển Vũng Tàu',N'Vũng Tàu','2026-10-29',5,2500000,N'Xe máy',0,NULL),(N'Hội An',N'Hội An','2026-11-10',2,5000000,N'Xe khách',0,NULL),(N'Buôn Ma Thuột',N'Buôn Ma Thuột','2026-11-15',3,3000000,N'Ô tô',0,NULL),(N'Ninh Bình',N'Ninh Bình','2026-11-20',4,3500000,N'Ô tô',0,NULL),(N'Phú Quốc',N'Phú Quốc','2026-11-25',2,9000000,N'Xe khách',0,NULL),(N'Hà Giang',N'Hà Giang','2026-12-01',4,7000000,N'Xe máy',0,NULL);
